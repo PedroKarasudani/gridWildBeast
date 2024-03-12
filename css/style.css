@@ -1,4 +1,5 @@
 img {
+  display: block;
   max-width: 100%;
 }
 
@@ -105,10 +106,26 @@ a {
 
 .anuncios {
   grid-area: anuncios;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
+}
+
+.anuncio-item img {
+  border-radius: 5px;
 }
 
 /* FOOTER */
 
 .footer {
   grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.footer p {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
 }
