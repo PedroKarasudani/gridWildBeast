@@ -110,6 +110,9 @@ a {
   .header nav ul li + li {
     margin-left: 10px;
   }
+  .header nav ul {
+    justify-content: center;
+  }
 }
 
 /* SIDENAV */
